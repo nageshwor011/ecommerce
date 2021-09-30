@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 93vh;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 13.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.koshilogo {
+    width: 50px;
+    height: auto;
+  }
+  .tot {
+    background-color: red;
+    color: black;
+    width: 10px;
+    height: 10px;
+}
+  
+
+  a:link{
+    text-decoration: none;
+    color: black;
+  }
+
+  .new{
+      color: red;
+  }
+  .hovermuted{
+      color: red;
+  }
+  h5.card-title{
+      color: rgb(36, 35, 35);
+  }
+  p.card-text{
+      color: rgb(19, 19, 19);
+  }
+
+  .sinInForm{
+      border: green 1px solid;
+  }
+
+  
+.size{
+    width: 50px;
+    height: 50px;
+}
+
+.size:hover, .size:focus{color: rgb(43, 43, 43);
+color: hotpink;
+text-decoration: none;
+}
+.size{
+color: rgb(77, 77, 77);
+}
+
+.form-control{
+    margin-bottom: 30px ;
+   position: relative;
+}
+
+.form-control input{
+    width: 100%;
+    border: 2px solid #f0f0f0;
+    min-height: 30px;
+}
+.form-control input:focus{
+    /* outline: 0; */
+    border-color: #777;
+   
+}
+.form-control i {
+    position: absolute;
+    right:  8px;
+    top: 25px;
+   visibility: hidden;
+    
+}
+.form-control.success input{
+    border-color: #2ecc71;   
+}
+.form-control small{
+    color: red;
+    position: absolute;
+    left: 0;
+    /* bottom: 0; */
+    visibility: hidden;
+}
+.form-control.error small{
+    font-size: 20px;
+    margin-top: 30px;
+    visibility: visible;
+}
+.form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+.form-control.error i.fa-exclamation-circle {
+    color: red;
+    visibility: visible;
+}
+
+.form-control.error input{
+   
+    border-color: red;
+   
+}
+.gridentLogin{
+    background-image: linear-gradient(rgb(190, 77, 235), rgb(0, 89, 255));
+}
+.fulWidth{
+    width: 100%;
+    height: 100%;
+}
+.contact{
+    margin-top:-15px;  background-image: url('images/bg/talk.jpg');background-repeat: no-repeat;background-size: cover; background-attachment: fixed;
+}
