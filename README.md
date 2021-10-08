@@ -9,7 +9,7 @@ This is fully feature ecommerce website developed in core php with esewa payment
 - Step 6: import the koshisale.sql  database file in database that you created just right now.
 
 
-Here the application will run but to get mail sending system follow below step Keep patient read it trust me after following this step this application run successfully.
+Here the application will run but to get mail sending system follow below step.
 
 To send mail from localhost XAMPP using Gmail, configure XAMPP after installing it. Follow the below steps for the same.
 
@@ -42,6 +42,7 @@ To send mail from localhost XAMPP using Gmail, configure XAMPP after installing 
 - On the bottom of the page, in the Less secure app access panel, click Turn on access.
 - If you don't see this setting, your administrator might have turned off less secure app account access (check the instruction above).
 - Click the Save button.
+
 ** Now your email will be sent successfully. After following this step your application run successfully. **
 . --------------------------------------------HAPPY CODING ----------------------------------------------
 ## ----------------------------------The end----------------------------------- 
